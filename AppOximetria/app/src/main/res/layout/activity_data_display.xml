@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="taciobelmonte.appoximetria.DataDisplay"
+    android:background="#0e8bff"
+    android:id="@+id/bpm">
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/ic_favorite_black_24dp"
+        android:paddingTop="20px"
+        android:layout_above="@+id/OximetriaBotao"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batimentos Cardíacos"
+        android:id="@+id/cardiacoTexto"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:shadowColor="#ffffff"
+        android:textAlignment="center"
+        android:paddingBottom="20px"
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oximetria"
+        android:id="@+id/OximetriaBotao"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:paddingTop="100px"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/ic_cloud_black_24dp"
+        android:layout_below="@+id/OximetriaBotao"
+        android:layout_alignLeft="@+id/OximetriaBotao"
+        android:layout_alignStart="@+id/OximetriaBotao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textoBatimentos"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/imageButton"
+        android:textStyle="bold"
+        android:paddingTop="35px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textoOximetria"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:paddingTop="50px"
+        android:paddingRight="25px"
+        android:paddingLeft="20px"
+        android:paddingBottom="0dp"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="bpm"
+        android:id="@+id/bpmLabel"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/OximetriaBotao"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

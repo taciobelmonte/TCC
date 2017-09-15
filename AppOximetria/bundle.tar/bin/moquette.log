@@ -1,0 +1,40 @@
+0    [main] INFO  Server  - Starting Moquette server. Configuration file path=/Users/Tacio/Documents/Android/BabyMonitoring/bundle.tar/config/moquette.conf
+4    [main] INFO  ResourceLoaderConfig  - Loading configuration. ResourceLoader = file, configName = null.
+4    [main] INFO  FileResourceLoader  - Loading file. Path = /Users/Tacio/Documents/Android/BabyMonitoring/bundle.tar/config/moquette.conf.
+4    [main] INFO  ResourceLoaderConfig  - Parsing configuration properties. ResourceLoader = file, configName = null.
+10   [main] INFO  Server  - Starting Moquette server using IConfig instance...
+10   [main] INFO  Server  - Starting moquette server using IConfig instance and intercept handlers
+11   [main] INFO  Server  - Starting Moquette Server. MQTT message interceptors=[]
+17   [main] INFO  Server  - Configuring embedded Hazelcast instance
+17   [main] INFO  Server  - There are no Hazelcast intercept handlers. The server won't start a Hazelcast instance.
+17   [main] INFO  Server  - Configuring Using persistent store file, path=null
+35   [main] INFO  BrokerInterceptor  - Initializing broker interceptor. InterceptorIds=[]
+46   [main] INFO  SubscriptionsDirectory  - Initializing subscriptions store...
+71   [main] INFO  ResourceAuthenticator  - Loading password file config/password_file.conf
+71   [main] INFO  FileResourceLoader  - Loading file. Path = /Users/Tacio/Documents/Android/BabyMonitoring/bundle.tar/config/password_file.conf.
+73   [main] INFO  ProtocolProcessor  - Initializing MQTT protocol processor...
+73   [main] INFO  ProtocolProcessor  - Initializing messages publisher...
+75   [main] INFO  ProtocolProcessor  - Initializing QoS publish handlers...
+79   [main] INFO  ProtocolProcessor  - Initializing internal republisher...
+80   [main] INFO  Server  - Initialized MQTT protocol processor
+80   [main] WARN  Server  - Using default SSL context creator
+91   [main] INFO  Server  - Binding server to the configured ports
+102  [main] INFO  NettyAcceptor  - Initializing Netty acceptor...
+102  [main] INFO  NettyAcceptor  - Netty is using NIO
+358  [main] INFO  NettyAcceptor  - Configuring TCP MQTT transport
+359  [main] INFO  NettyAcceptor  - Initializing server. Protocol=TCP MQTT
+372  [main] INFO  NettyAcceptor  - Binding server. host=0.0.0.0, port=1883
+622  [main] INFO  NettyAcceptor  - Server has been bound. host=0.0.0.0, port=1883
+634  [main] INFO  NettyAcceptor  - Configuring Websocket MQTT transport
+634  [main] INFO  NettyAcceptor  - Initializing server. Protocol=Websocket MQTT
+635  [main] INFO  NettyAcceptor  - Binding server. host=0.0.0.0, port=8080
+636  [main] INFO  NettyAcceptor  - Server has been bound. host=0.0.0.0, port=8080
+636  [main] INFO  Server  - Moquette server has been initialized successfully
+71230 [Thread-0] INFO  Server  - Unbinding server from the configured ports
+71233 [Thread-0] INFO  NettyAcceptor  - Closing Netty acceptor...
+71236 [Thread-0] INFO  NettyAcceptor  - Waiting for worker and boss event loop groups to terminate...
+73449 [Thread-0] INFO  NettyAcceptor  - Collecting message metrics...
+73450 [Thread-0] INFO  NettyAcceptor  - Metrics have been collected. Read messages=0, written messages=0
+73450 [Thread-0] INFO  NettyAcceptor  - Collecting bytes metrics...
+73451 [Thread-0] INFO  NettyAcceptor  - Bytes metrics have been collected. Read bytes=0, written bytes=0
+73451 [Thread-0] INFO  Server  - Moquette server has been stopped.
